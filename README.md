@@ -15,3 +15,8 @@
 price only) data in a json object.
  -- iii. If the flight is not available for Price criteria: (Economy (Most Restricted), filter the flight data out of the json object
  -- iv. Print the final json object in the console.
+ 
+### The steps to run from the root folder are:
+npm install
+npm run start
+
