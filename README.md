@@ -1,4 +1,4 @@
-# WebTask
+# WebTesting
 ### The repository contains the answer to the task:
 1. Install Nightwatchjs ( http://nightwatchjs.org/ )
 2. Using Nightwatch, write a script for automated test to:
