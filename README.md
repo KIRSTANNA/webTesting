@@ -2,14 +2,14 @@
 ### The repository contains the answer to the task:
 1. Install Nightwatchjs ( http://nightwatchjs.org/ )
 2. Using Nightwatch, write a script for automated test to:
- a. Navigate to https://www.united.com
- b. Fill the search criteria:
+ - a. Navigate to https://www.united.com
+ - b. Fill the search criteria:
  - i. One-way flight
  - ii. From “New York JFK” to “Miami, FL, US (MIA - All Airports)”
  -  iii. Depart date August 20th
  -  iv. Economy class
- c. Click Find flights
- d. In the flight table:
+ - c. Click Find flights
+ - d. In the flight table:
  - i. Sort the flights by Economy (Most Restricted), lowest price first
  - ii. Collect Depart, Arrive, Stops, Duration, Price (Economy (Most Restricted)
 price only) data in a json object.
