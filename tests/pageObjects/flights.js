@@ -13,17 +13,9 @@ module.exports = {
         {
         selector: '//*[@id="announcePriceSort-ECO-BASIC"]',
         locateStrategy: 'xpath'
-        },   
-/*        
-      flightRow: 
-        {
-        selector: '//*[@id="flight-result-list-revised"]/li[1]',
-        locateStrategy: 'xpath'
-        },
-      */        
+        },          
       basicEconomy:
         {
-          //selector: '//*[@id="announcePriceSort-ECO-BASIC"]',
           selector: '//*[@id="column-ECO-BASIC"]',
           locateStrategy: 'xpath'
         }
