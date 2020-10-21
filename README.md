@@ -1,4 +1,4 @@
-# TestTask1
+# WebTask
 ### The repository contains the answer to the task:
 1. Install Nightwatchjs ( http://nightwatchjs.org/ )
 2. Using Nightwatch, write a script for automated test to:
@@ -17,6 +17,7 @@ price only) data in a json object.
  -- iv. Print the final json object in the console.
  
 ### The steps to run from the root folder are:
-npm install
-npm run start
+- npm install
+- npm run start
+
 
