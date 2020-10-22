@@ -57,7 +57,6 @@ module.exports = {
         var liItem = [""]        
         var webId = ""
 
-        //flights.pause(20000)
         flights.waitForElementPresent('@flightList' , 20000, function(result){ 
                 //console.log(result)
                 webId = result.WebdriverElementId             
@@ -65,7 +64,6 @@ module.exports = {
 
             flights.api.perform(function() {
                 var strList = ""  
-                //strList.slice()
                 flights.api.elementIdText(webId,function(r){
                     strList = "" + r.value
                 }) 
